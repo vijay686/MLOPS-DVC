@@ -10,3 +10,5 @@
 """ Whenever you try change the data, a new ID is generated through DVC. 
 ".dvc" file contains the ID and data in it, as it is tracking the data."""
 8. Again performing "dvc add data/" (creates data.dvc) then "git add .gitgignore data.dvc" (data.dvc is not tracked by git such that it is left to track by DVC.)
+9. Now "dvc commit" and "dvc push"
+10. Do a git add-commit-push mark this stage as the first version of data.
