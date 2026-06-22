@@ -1,0 +1,3 @@
+Create git repo and clone it in local.
+Create code.py and add code to it.(It should save .csv in "data" folder)
+Do a git add-commit-push before intialising DVC.
