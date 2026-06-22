@@ -14,3 +14,8 @@
 10. Do a git add-commit-push mark this stage as the first version of data.
 11. Now make changes in code.py to append a new row of data, and check changes via "dvc-status".
 12. Again do "dvc-commit" and "dvc-push".
+13. Check git/ dvc status. 
+Again add changes and repeat the steps.
+
+
+Ex: We want the data which is at the first commit, then "git checkout <sha ID>" is used to go to that version of code. Then "dvc pull" is used to get the required version of the data. 
